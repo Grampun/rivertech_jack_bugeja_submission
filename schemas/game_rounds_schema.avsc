@@ -1,0 +1,17 @@
+{
+    "type": "record",
+    "name": "GameRound",
+    "fields": [
+      {"name": "created_timestamp", "type": "string"},
+      {"name": "game_instance_id", "type": "string"},
+      {"name": "user_id", "type": "string"},
+      {"name": "game_id", "type": "string"},
+      {"name": "real_amount_bet", "type": "double"},
+      {"name": "bonus_amount_bet", "type": "double"},
+      {"name": "real_amount_win", "type": "double"},
+      {"name": "bonus_amount_win", "type": "double"},
+      {"name": "game_name", "type": "string"},
+      {"name": "provider", "type": "string"}
+    ]
+  }
+  
